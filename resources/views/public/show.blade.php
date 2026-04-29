@@ -13,7 +13,7 @@
             <div class="flex justify-between items-start">
                 <h1 class="text-xl font-bold text-gray-800">Laporan #{{ $report->id }}</h1>
                 <span class="text-sm font-semibold px-3 py-1 rounded-full bg-green-100 text-green-700">
-                    ✅ Terverifikasi
+                    Terverifikasi
                 </span>
             </div>
 
@@ -21,14 +21,14 @@
 
             <div class="text-sm text-gray-500 space-y-1">
                 @if($report->province)
-                    <div>📍 {{ implode(', ', array_filter([$report->district, $report->city, $report->province])) }}</div>
+                    <div>{{ implode(', ', array_filter([$report->district, $report->city, $report->province])) }}</div>
                 @endif
-                <div>📅 Dilaporkan {{ $report->created_at->translatedFormat('d F Y') }}</div>
+                <div>Dilaporkan {{ $report->created_at->translatedFormat('d F Y') }}</div>
             </div>
 
             @if($report->surveyResult)
                 <div class="border-t pt-4">
-                    <h2 class="font-semibold text-gray-700 mb-3">📋 Hasil Verifikasi Lapangan</h2>
+                    <h2 class="font-semibold text-gray-700 mb-3">Hasil Verifikasi Lapangan</h2>
                     <div class="bg-gray-50 rounded-xl p-4 text-sm text-gray-600 space-y-2">
                         <p>{{ $report->surveyResult->notes }}</p>
                         @if($report->surveyResult->photo)
@@ -45,7 +45,7 @@
             {{-- Mini map --}}
             @if($report->latitude && $report->longitude)
                 <div>
-                    <h2 class="font-semibold text-gray-700 mb-2">🗺️ Lokasi</h2>
+                    <h2 class="font-semibold text-gray-700 mb-2">Lokasi</h2>
                     <div id="detail-map" class="h-48 rounded-xl overflow-hidden border"></div>
                 </div>
             @endif
