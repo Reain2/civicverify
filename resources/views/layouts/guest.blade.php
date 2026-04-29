@@ -15,7 +15,6 @@
     <!-- Logo / Branding -->
     <div class="mb-8 text-center">
         <a href="{{ route('home') }}" class="inline-flex flex-col items-center gap-2 group">
-            <span class="text-5xl drop-shadow">🏛️</span>
             <span class="text-white font-bold text-2xl tracking-wide group-hover:text-blue-200 transition">
                 CivicVerify
             </span>

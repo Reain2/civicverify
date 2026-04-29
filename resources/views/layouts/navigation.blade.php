@@ -6,7 +6,6 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}" class="flex items-center gap-2">
-                        <span class="text-2xl">🏛️</span>
                         <span class="text-white font-bold text-lg tracking-wide">CivicVerify</span>
                     </a>
                 </div>
