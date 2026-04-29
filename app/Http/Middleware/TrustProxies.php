@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 
 class TrustProxies extends Middleware
 {
-    // Percaya semua proxy — diperlukan untuk Railway, Render, dll
     protected $proxies = '*';
 
     protected $headers =
