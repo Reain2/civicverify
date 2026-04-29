@@ -72,6 +72,11 @@
 
 <footer class="mt-12 border-t bg-white py-6 text-center text-sm text-gray-500">
     © {{ date('Y') }} CivicVerify — Sistem Verifikasi Bantuan Sosial Berbasis Partisipasi Masyarakat
+    Demo Test Account
+    warga@civicverify.id / password
+    surveyor@civicverify.id / password
+    konsultan@civicverify.id / password
+    kementerian@civicverify.id / password
 </footer>
 
 {{-- Offline sync script --}}
