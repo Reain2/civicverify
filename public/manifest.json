@@ -1,0 +1,22 @@
+{
+    "name": "CivicVerify",
+    "short_name": "CivicVerify",
+    "description": "Sistem Verifikasi Bantuan Sosial Berbasis Partisipasi Masyarakat",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f9fafb",
+    "theme_color": "#1d4ed8",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
