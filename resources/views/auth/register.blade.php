@@ -49,4 +49,13 @@
             </x-primary-button>
         </div>
     </form>
+        <div class="mt-6 p-4 border rounded-lg bg-gray-50">
+            <h3 class="font-semibold text-gray-700 mb-2">Demo Test Account</h3>
+            <ul class="text-sm text-gray-600 space-y-1">
+                <li><b>warga</b>: warga@civicverify.id / password</li>
+                <li><b>surveyor</b>: surveyor@civicverify.id / password</li>
+                <li><b>konsultan</b>: konsultan@civicverify.id / password</li>
+                <li><b>kementerian</b>: kementerian@civicverify.id / password</li>
+            </ul>
+        </div>
 </x-guest-layout>
