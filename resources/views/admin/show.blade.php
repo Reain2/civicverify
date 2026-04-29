@@ -34,7 +34,7 @@
         {{-- Hasil Survei --}}
         @if($report->surveyResult)
             <div class="border-t pt-4">
-                <h2 class="font-semibold text-gray-700 mb-3">📋 Hasil Survei Lapangan</h2>
+                <h2 class="font-semibold text-gray-700 mb-3">Hasil Survei Lapangan</h2>
                 <div class="bg-gray-50 rounded-xl p-4 space-y-2 text-sm text-gray-600">
                     <div><strong>Surveyor:</strong> {{ $report->surveyResult->surveyor->name }}</div>
                     <div><strong>Catatan:</strong> {{ $report->surveyResult->notes }}</div>
