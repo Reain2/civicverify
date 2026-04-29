@@ -79,7 +79,7 @@
                     </div>
                 @else
                     <div class="text-sm text-gray-600 bg-blue-50 rounded-lg p-3">
-                        ✅ Ditugaskan ke: <strong>{{ $report->assignedSurveyor->name }}</strong>
+                        Ditugaskan ke: <strong>{{ $report->assignedSurveyor->name }}</strong>
                     </div>
                 @endif
 
@@ -90,13 +90,13 @@
                             @csrf
                             <button type="submit"
                                     class="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-lg font-semibold transition text-sm">
-                                ✅ Terverifikasi
+                                Terverifikasi
                             </button>
                         </form>
 
                         <button onclick="document.getElementById('modal-tolak-akhir').classList.remove('hidden')"
                                 class="bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-lg font-semibold transition text-sm">
-                            ❌ Tolak
+                            Tolak
                         </button>
                     </div>
                 @else
