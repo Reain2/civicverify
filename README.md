@@ -56,5 +56,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# civicverify
+# CivicVerify
+
+Website pelaporan masyarakat berbasis Laravel.
+
+## Features
+- Authentication
+- Report Management
+- Dashboard
+- Role-based Access
+
+## Tech Stack
+- Laravel
+- MySQL
+- Bootstrap
+
+## Installation
+```bash
+composer install
+php artisan migrate
+php artisan serve
 # civicverify
